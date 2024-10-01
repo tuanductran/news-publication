@@ -134,12 +134,12 @@ h2.sub-title {
 	<div class="npub-info-left">
 		<h1 class="main-title mb35">News Publication Theme <span>Intro & Guide</span></h1>
 		<p class="mb40">News Publication Theme is a light weight theme which uses <strong>nBlocks</strong> widgets as its primary building block.</p>
-		<img class="mb40" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/nBlocks.png" alt="">
+		<img class="mb40" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/nBlocks.png" alt="">
 		<h2 class="sub-title mb25">How to get started:</h2>
 		<h2 class="sub-title mb25">Step 1 - Activate Demo Import plugin.</h2>
-		<img class="mb40" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/demo-import-plugin.png" width="486" height="125" alt="">
+		<img class="mb40" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/demo-import-plugin.png" width="486" height="125" alt="">
 		<h2 class="sub-title mb25">Step 2 - Navigate to Appearance > Import Demo Data</h2>
-		<img class="mb40" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/import-demo-data.png" width="183" height="233" alt="">
+		<img class="mb40" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/import-demo-data.png" width="183" height="233" alt="">
 		<h2 class="sub-title mb25">Step 3 - Select one of the demos to import. Done! Happy editing!</h2>
 	</div>
 	<div class="npub-info-right">
@@ -151,21 +151,21 @@ h2.sub-title {
 					<div class="acc-col">
 						<div class="acc-col-left">
 							<p class="mb20">Step 1.<br>Click on Pages.</p>
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/page.png" width="178" height="113" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/page.png" width="178" height="113" alt="">
 						</div>
 						<div class="acc-col-right">
 							<p class="mb20">Step 2.<br>Add a new page or edit an existing one.</p>
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/existing.png" width="260" height="202" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/existing.png" width="260" height="202" alt="">
 						</div>
 					</div>
 					<div class="acc-col">
 						<div class="acc-col-left">
 							<p class="mb20">Step 3.<br>Tap the + button on your native WordPress editor (Gutenberg), and click on the “nBlocks” widget.<br><br>Note: This theme doesn’t require 3rd party editors. Make sure you’re editing your page with WordPress.</p>
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/nBlocks-widget.png" width="299" height="311" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/nBlocks-widget.png" width="299" height="311" alt="">
 						</div>
 						<div class="acc-col-right">
 							<p class="mb20">Step 4.<br>Select one of the article layouts.</p>
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/article.png" width="345" height="266" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/article.png" width="345" height="266" alt="">
 						</div>
 					</div>
 					<div class="acc-col">
@@ -173,7 +173,7 @@ h2.sub-title {
 							<p class="mb20">Step 5.<br>A preview of your latest posts will show up as a block in your editor.<br><br>Go to the block settings on the right panel to filter your latest posts based on categories, author, dates & more.<br><br>Apply the “Post Offset” function to offset the order of posts showing on the multiple blocks you’ll add to the page, to avoid duplicate posts.</p>
 						</div>
 						<div class="acc-col-right">
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/preview.png" width="330" height="504" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/preview.png" width="330" height="504" alt="">
 						</div>
 					</div>
 				</div>
@@ -184,21 +184,21 @@ h2.sub-title {
 					<div class="acc-col">
 						<div class="acc-col-left">
 							<p class="mb20">Step 1.<br>Click on Pages.</p>
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/page.png" width="178" height="113" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/page.png" width="178" height="113" alt="">
 						</div>
 						<div class="acc-col-right">
 							<p class="mb20">Step 2.<br>Add a new page or edit an existing one.</p>
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/existing.png" width="260" height="202" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/existing.png" width="260" height="202" alt="">
 						</div>
 					</div>
 					<div class="acc-col">
 						<div class="acc-col-left">
 							<p class="mb20">Step 3.<br>Tap the + button on your native WordPress editor (Gutenberg), and click on the “nBlocks” widget.<br><br>Note: This theme doesn’t require 3rd party editors. Make sure you’re editing your page with WordPress.</p>
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/nBlocks-widget.png" width="299" height="311" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/nBlocks-widget.png" width="299" height="311" alt="">
 						</div>
 						<div class="acc-col-right">
 							<p class="mb20">Step 4.<br>Select one of the article layouts.</p>
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/article.png" width="345" height="266" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/article.png" width="345" height="266" alt="">
 						</div>
 					</div>
 					<div class="acc-col">
@@ -206,7 +206,7 @@ h2.sub-title {
 							<p class="mb20">Step 5.<br>A preview of your latest posts will show up as a block in your editor.<br><br>Go to the block settings on the right panel to filter your latest posts based on categories, author, dates & more.<br><br>Apply the “Post Offset” function to offset the order of posts showing on the multiple blocks you’ll add to the page, to avoid duplicate posts.</p>
 						</div>
 						<div class="acc-col-right">
-							<img class="mb45" src="<?php echo NPUB_THEME_URI ?>assets/img/admin/preview.png" width="330" height="504" alt="">
+							<img class="mb45" src="<?php echo NPUB_THEME_URI; ?>assets/img/admin/preview.png" width="330" height="504" alt="">
 						</div>
 					</div>
 				</div>

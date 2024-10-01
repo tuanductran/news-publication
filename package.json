@@ -1,0 +1,31 @@
+{
+  "name": "news-publication",
+  "version": "1.0.0",
+  "description": "News Publication is optimized to build news, publication, magazine and portal websites, featuring multiple block cards to display news items, footers, headers, article layouts & more.",
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.11.0",
+  "keywords": [
+    "news",
+    "article",
+    "blog",
+    "publishing",
+    "newspaper theme",
+    "magazine",
+    "publication theme",
+    "news outlet",
+    "responsive",
+    "modern",
+    "beginner friendly"
+  ],
+  "scripts": {
+    "format": "npx prettier --write .",
+    "format:check": "npx prettier --check ."
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.22.2",
+    "@wordpress/prettier-config": "^4.8.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-pkg": "^0.18.1"
+  }
+}

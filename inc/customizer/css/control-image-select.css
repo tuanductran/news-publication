@@ -1,25 +1,25 @@
 /* Hides the radio button */
-.customize-control-radio-image input[type="radio"] {
-    visibility: hidden;
-    position: absolute;
+.customize-control-radio-image input[type='radio'] {
+  visibility: hidden;
+  position: absolute;
 }
 
 /* Makes images look clickable */
 .customize-control-radio-image img {
-    border: 3px solid transparent;
-    box-sizing: border-box;
-    cursor: pointer;
-    height: auto;
-    max-width: 100%;
-    padding: 1px;
-    border-radius: 15px;
+  border: 3px solid transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: auto;
+  max-width: 100%;
+  padding: 1px;
+  border-radius: 15px;
 }
 
 /* Adds blue border around currently selected image */
 .customize-control-radio-image input:checked + img {
-    border-color: #00a0d2;
+  border-color: #00a0d2;
 }
 
 .customize-image-control .image-wrapper img {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }

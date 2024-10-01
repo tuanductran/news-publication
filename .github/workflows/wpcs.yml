@@ -4,9 +4,9 @@ on: pull_request
 
 jobs:
   phpcs:
-      name: WPCS
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v4
-        - name: WPCS check
-          uses: 10up/wpcs-action@stable
+    name: WPCS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: WPCS check
+        uses: 10up/wpcs-action@stable

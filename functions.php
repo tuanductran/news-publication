@@ -2,23 +2,29 @@
 /**
  * Theme constants
  */
-if ( ! defined( 'NPUB_THEME_DIR' ) ) {
-	define( 'NPUB_THEME_DIR', trailingslashit( get_template_directory() ) );
+if (!defined('NPUB_THEME_DIR')) {
+    define('NPUB_THEME_DIR', trailingslashit(get_template_directory()));
 }
-if ( ! defined( 'NPUB_THEME_URI' ) ) {
-	define( 'NPUB_THEME_URI', trailingslashit( get_template_directory_uri() ) );
-}
-
-if ( ! defined( 'NPUB_THEME_CUSTOMIZER_DIR' ) ) {
-	define( 'NPUB_THEME_CUSTOMIZER_DIR', trailingslashit( NPUB_THEME_DIR . 'inc/customizer/' ) );
-}
-if ( ! defined( 'NPUB_THEME_CUSTOMIZER_URI' ) ) {
-	define( 'NPUB_THEME_CUSTOMIZER_URI', trailingslashit( NPUB_THEME_URI . 'inc/customizer/' ) );
+if (!defined('NPUB_THEME_URI')) {
+    define('NPUB_THEME_URI', trailingslashit(get_template_directory_uri()));
 }
 
-if ( ! defined( 'NPUB_THEME_VERSION' ) ) {
-	$npub_theme = wp_get_theme();
-	define( 'NPUB_THEME_VERSION', $npub_theme->get( 'Version' ) );
+if (!defined('NPUB_THEME_CUSTOMIZER_DIR')) {
+    define(
+        'NPUB_THEME_CUSTOMIZER_DIR',
+        trailingslashit(NPUB_THEME_DIR . 'inc/customizer/')
+    );
+}
+if (!defined('NPUB_THEME_CUSTOMIZER_URI')) {
+    define(
+        'NPUB_THEME_CUSTOMIZER_URI',
+        trailingslashit(NPUB_THEME_URI . 'inc/customizer/')
+    );
+}
+
+if (!defined('NPUB_THEME_VERSION')) {
+    $npub_theme = wp_get_theme();
+    define('NPUB_THEME_VERSION', $npub_theme->get('Version'));
 }
 
 /**
