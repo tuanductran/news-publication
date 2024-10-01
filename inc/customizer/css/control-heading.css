@@ -1,0 +1,8 @@
+.customize-title-control h2{
+    margin: 0;
+}
+.customize-title-control{
+    background-color: #1cbacc61;
+    padding: 5px 10px;
+    border: 1px solid #1cbacc;
+}
