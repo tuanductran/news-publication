@@ -5,6 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 importers:
+
   .:
     devDependencies:
       '@prettier/plugin-php':
@@ -21,53 +22,37 @@ importers:
         version: 0.18.1(prettier@3.3.3)
 
 packages:
+
   '@prettier/plugin-php@0.22.2':
-    resolution:
-      {
-        integrity: sha512-md0+7tNbsP0oy+wIP3KZZc6fzx1k1jtWaMjOy/gM8yU9f2BDYEi+iHOc/UNPihYvPI28zFTbjvlhH4QXQjQwNg==
-      }
+    resolution: {integrity: sha512-md0+7tNbsP0oy+wIP3KZZc6fzx1k1jtWaMjOy/gM8yU9f2BDYEi+iHOc/UNPihYvPI28zFTbjvlhH4QXQjQwNg==}
     peerDependencies:
       prettier: ^3.0.0
 
   '@wordpress/prettier-config@4.8.0':
-    resolution:
-      {
-        integrity: sha512-2ebyrGM0Q7gQGDcEFm2uDnjwSgZIZvKaE7My12HytbMKltg8LEbkXxYvH0MLWh4hTp9q5xxf8VlXh7kOk02kUw==
-      }
-    engines: { node: '>=18.12.0', npm: '>=8.19.2' }
+    resolution: {integrity: sha512-2ebyrGM0Q7gQGDcEFm2uDnjwSgZIZvKaE7My12HytbMKltg8LEbkXxYvH0MLWh4hTp9q5xxf8VlXh7kOk02kUw==}
+    engines: {node: '>=18.12.0', npm: '>=8.19.2'}
     peerDependencies:
       prettier: '>=3'
 
   linguist-languages@7.27.0:
-    resolution:
-      {
-        integrity: sha512-Wzx/22c5Jsv2ag+uKy+ITanGA5hzvBZngrNGDXLTC7ZjGM6FLCYGgomauTkxNJeP9of353OM0pWqngYA180xgw==
-      }
+    resolution: {integrity: sha512-Wzx/22c5Jsv2ag+uKy+ITanGA5hzvBZngrNGDXLTC7ZjGM6FLCYGgomauTkxNJeP9of353OM0pWqngYA180xgw==}
 
   php-parser@3.1.5:
-    resolution:
-      {
-        integrity: sha512-jEY2DcbgCm5aclzBdfW86GM6VEIWcSlhTBSHN1qhJguVePlYe28GhwS0yoeLYXpM2K8y6wzLwrbq814n2PHSoQ==
-      }
+    resolution: {integrity: sha512-jEY2DcbgCm5aclzBdfW86GM6VEIWcSlhTBSHN1qhJguVePlYe28GhwS0yoeLYXpM2K8y6wzLwrbq814n2PHSoQ==}
 
   prettier-plugin-pkg@0.18.1:
-    resolution:
-      {
-        integrity: sha512-FuUxvsYZR/8rsLH8s/jbPQmgYvv0yxW8LoIHCy6+Q7p4FBjjdP3DNKx8fMTOsc0SlEB1skB4o1LcahRceIh87A==
-      }
-    engines: { node: ^14.18.0 || >=16.0.0 }
+    resolution: {integrity: sha512-FuUxvsYZR/8rsLH8s/jbPQmgYvv0yxW8LoIHCy6+Q7p4FBjjdP3DNKx8fMTOsc0SlEB1skB4o1LcahRceIh87A==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       prettier: ^3.0.3
 
   prettier@3.3.3:
-    resolution:
-      {
-        integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
-      }
-    engines: { node: '>=14' }
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+    engines: {node: '>=14'}
     hasBin: true
 
 snapshots:
+
   '@prettier/plugin-php@0.22.2(prettier@3.3.3)':
     dependencies:
       linguist-languages: 7.27.0
