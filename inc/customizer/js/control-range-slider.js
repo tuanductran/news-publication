@@ -17,14 +17,14 @@
         var suffix = $(this).prev().attr('suffix')
           ? $(this).prev().attr('suffix')
           : ''
-        $(this).html(value + suffix)
+        $(this).text(value + suffix)
       })
 
       range.on('input', function () {
         var suffix = $(this).attr('suffix') ? $(this).attr('suffix') : ''
         $(this)
           .next(value)
-          .html(this.value + suffix)
+          .text(this.value + suffix)
       })
     })
   }
