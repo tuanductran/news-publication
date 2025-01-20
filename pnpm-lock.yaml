@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@prettier/plugin-php':
         specifier: ^0.22.2
-        version: 0.22.2(prettier@3.4.2)
+        version: 0.22.3(prettier@3.4.2)
       '@wordpress/prettier-config':
         specifier: ^4.8.0
         version: 4.16.0(prettier@3.4.2)
@@ -23,8 +23,8 @@ importers:
 
 packages:
 
-  '@prettier/plugin-php@0.22.2':
-    resolution: {integrity: sha512-md0+7tNbsP0oy+wIP3KZZc6fzx1k1jtWaMjOy/gM8yU9f2BDYEi+iHOc/UNPihYvPI28zFTbjvlhH4QXQjQwNg==}
+  '@prettier/plugin-php@0.22.3':
+    resolution: {integrity: sha512-EoThySFj8uMe98TpEqSicFhZFm7hxLJqExKMrFsgoJNtQMDYq72gLi+bhzjwqAthTS2II8gKVALUFM6LInKH0Q==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -37,8 +37,8 @@ packages:
   linguist-languages@7.27.0:
     resolution: {integrity: sha512-Wzx/22c5Jsv2ag+uKy+ITanGA5hzvBZngrNGDXLTC7ZjGM6FLCYGgomauTkxNJeP9of353OM0pWqngYA180xgw==}
 
-  php-parser@3.1.5:
-    resolution: {integrity: sha512-jEY2DcbgCm5aclzBdfW86GM6VEIWcSlhTBSHN1qhJguVePlYe28GhwS0yoeLYXpM2K8y6wzLwrbq814n2PHSoQ==}
+  php-parser@3.2.2:
+    resolution: {integrity: sha512-voj3rzCJmEbwHwH3QteON28wA6K+JbcaJEofyUZkUXmcViiXofjbSbcE5PtqtjX6nstnnAEYCFoRq0mkjP5/cg==}
 
   prettier-plugin-pkg@0.18.1:
     resolution: {integrity: sha512-FuUxvsYZR/8rsLH8s/jbPQmgYvv0yxW8LoIHCy6+Q7p4FBjjdP3DNKx8fMTOsc0SlEB1skB4o1LcahRceIh87A==}
@@ -53,10 +53,10 @@ packages:
 
 snapshots:
 
-  '@prettier/plugin-php@0.22.2(prettier@3.4.2)':
+  '@prettier/plugin-php@0.22.3(prettier@3.4.2)':
     dependencies:
       linguist-languages: 7.27.0
-      php-parser: 3.1.5
+      php-parser: 3.2.2
       prettier: 3.4.2
 
   '@wordpress/prettier-config@4.16.0(prettier@3.4.2)':
@@ -65,7 +65,7 @@ snapshots:
 
   linguist-languages@7.27.0: {}
 
-  php-parser@3.1.5: {}
+  php-parser@3.2.2: {}
 
   prettier-plugin-pkg@0.18.1(prettier@3.4.2):
     dependencies:
