@@ -4,7 +4,7 @@
   "description": "News Publication is optimized to build news, publication, magazine and portal websites, featuring multiple block cards to display news items, footers, headers, article layouts & more.",
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.23.0",
+  "packageManager": "pnpm@10.24.0",
   "keywords": [
     "news",
     "article",
