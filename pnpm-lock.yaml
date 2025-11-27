@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@prettier/plugin-php':
-        specifier: ^0.22.2
-        version: 0.22.4(prettier@3.5.1)
+        specifier: ^0.24.0
+        version: 0.24.0(prettier@3.5.1)
       '@wordpress/prettier-config':
         specifier: ^4.8.0
         version: 4.18.0(prettier@3.5.1)
@@ -23,8 +23,8 @@ importers:
 
 packages:
 
-  '@prettier/plugin-php@0.22.4':
-    resolution: {integrity: sha512-uZWqfyrwsxScIYkmVcfnoQGFmKVMXTHD5pqYT4l8fxzm5P3XY94hTPbf8X6TFCi2QTZBIot7GS8lfIjQjldc2g==}
+  '@prettier/plugin-php@0.24.0':
+    resolution: {integrity: sha512-x9l65fCE/pgoET6RQowgdgG8Xmzs44z6j6Hhg3coINCyCw9JBGJ5ZzMR2XHAM2jmAdbJAIgqB6cUn4/3W3XLTA==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -34,11 +34,11 @@ packages:
     peerDependencies:
       prettier: '>=3'
 
-  linguist-languages@7.27.0:
-    resolution: {integrity: sha512-Wzx/22c5Jsv2ag+uKy+ITanGA5hzvBZngrNGDXLTC7ZjGM6FLCYGgomauTkxNJeP9of353OM0pWqngYA180xgw==}
+  linguist-languages@8.2.0:
+    resolution: {integrity: sha512-KCUUH9x97QWYU0SXOCGxUrZR6cSfuQrMhABB7L/0I8N0LXOeaKe7+RZs7FAwvWCV2qKfZ4Wv1luLq4OfMezSJg==}
 
-  php-parser@3.2.2:
-    resolution: {integrity: sha512-voj3rzCJmEbwHwH3QteON28wA6K+JbcaJEofyUZkUXmcViiXofjbSbcE5PtqtjX6nstnnAEYCFoRq0mkjP5/cg==}
+  php-parser@3.2.5:
+    resolution: {integrity: sha512-M1ZYlALFFnESbSdmRtTQrBFUHSriHgPhgqtTF/LCbZM4h7swR5PHtUceB2Kzby5CfqcsYwBn7OXTJ0+8Sajwkw==}
 
   prettier-plugin-pkg@0.18.1:
     resolution: {integrity: sha512-FuUxvsYZR/8rsLH8s/jbPQmgYvv0yxW8LoIHCy6+Q7p4FBjjdP3DNKx8fMTOsc0SlEB1skB4o1LcahRceIh87A==}
@@ -53,19 +53,19 @@ packages:
 
 snapshots:
 
-  '@prettier/plugin-php@0.22.4(prettier@3.5.1)':
+  '@prettier/plugin-php@0.24.0(prettier@3.5.1)':
     dependencies:
-      linguist-languages: 7.27.0
-      php-parser: 3.2.2
+      linguist-languages: 8.2.0
+      php-parser: 3.2.5
       prettier: 3.5.1
 
   '@wordpress/prettier-config@4.18.0(prettier@3.5.1)':
     dependencies:
       prettier: 3.5.1
 
-  linguist-languages@7.27.0: {}
+  linguist-languages@8.2.0: {}
 
-  php-parser@3.2.2: {}
+  php-parser@3.2.5: {}
 
   prettier-plugin-pkg@0.18.1(prettier@3.5.1):
     dependencies:
