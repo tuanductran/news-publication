@@ -18,8 +18,8 @@ get_header(); ?>
 <div class="container">
 	<div class="post-metadata npub-extra-big-title">
 		<h1><?php echo esc_html(get_the_title()); ?></h1>
-		<span class="pe-2 npub-link"><?php wp_kses_post(the_category(', ')); ?></span>
-		<p class="d-inline pe-2 npub-secondary-color npub-secondary-title"><?php wp_kses_post(
+		<span class="pe-2 npub-link"><?php echo wp_kses_post(the_category(', ')); ?></span>
+		<p class="d-inline pe-2 npub-secondary-color npub-secondary-title"><?php echo wp_kses_post(
       the_author()
   ); ?></p>
 		<p class="d-inline p-0 npub-secondary-color npub-secondary-title"><?php echo wp_kses_post(
