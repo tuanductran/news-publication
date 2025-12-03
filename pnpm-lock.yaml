@@ -18,8 +18,8 @@ importers:
         specifier: ^3.3.3
         version: 3.5.1
       prettier-plugin-pkg:
-        specifier: ^0.18.1
-        version: 0.18.1(prettier@3.5.1)
+        specifier: ^0.21.0
+        version: 0.21.2(prettier@3.5.1)
 
 packages:
 
@@ -40,8 +40,8 @@ packages:
   php-parser@3.2.5:
     resolution: {integrity: sha512-M1ZYlALFFnESbSdmRtTQrBFUHSriHgPhgqtTF/LCbZM4h7swR5PHtUceB2Kzby5CfqcsYwBn7OXTJ0+8Sajwkw==}
 
-  prettier-plugin-pkg@0.18.1:
-    resolution: {integrity: sha512-FuUxvsYZR/8rsLH8s/jbPQmgYvv0yxW8LoIHCy6+Q7p4FBjjdP3DNKx8fMTOsc0SlEB1skB4o1LcahRceIh87A==}
+  prettier-plugin-pkg@0.21.2:
+    resolution: {integrity: sha512-CSlM5+51B7yTKcoRWT4M3ImcdFHD5NUz0Xu2t8J03B761zu6J3BjSo/XleKp2kB0tH49K7oG5Uuqn6ldI5LRLg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       prettier: ^3.0.3
@@ -67,7 +67,7 @@ snapshots:
 
   php-parser@3.2.5: {}
 
-  prettier-plugin-pkg@0.18.1(prettier@3.5.1):
+  prettier-plugin-pkg@0.21.2(prettier@3.5.1):
     dependencies:
       prettier: 3.5.1
 
