@@ -10,16 +10,16 @@ importers:
     devDependencies:
       '@prettier/plugin-php':
         specifier: ^0.24.0
-        version: 0.24.0(prettier@3.8.1)
+        version: 0.24.0(prettier@3.9.6)
       '@wordpress/prettier-config':
         specifier: ^4.8.0
-        version: 4.38.0(prettier@3.8.1)
+        version: 4.38.0(prettier@3.9.6)
       prettier:
         specifier: ^3.3.3
-        version: 3.8.1
+        version: 3.9.6
       prettier-plugin-pkg:
         specifier: ^0.21.0
-        version: 0.21.2(prettier@3.8.1)
+        version: 0.21.2(prettier@3.9.6)
 
 packages:
 
@@ -46,29 +46,29 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  prettier@3.8.1:
-    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
     engines: {node: '>=14'}
     hasBin: true
 
 snapshots:
 
-  '@prettier/plugin-php@0.24.0(prettier@3.8.1)':
+  '@prettier/plugin-php@0.24.0(prettier@3.9.6)':
     dependencies:
       linguist-languages: 8.2.0
       php-parser: 3.2.5
-      prettier: 3.8.1
+      prettier: 3.9.6
 
-  '@wordpress/prettier-config@4.38.0(prettier@3.8.1)':
+  '@wordpress/prettier-config@4.38.0(prettier@3.9.6)':
     dependencies:
-      prettier: 3.8.1
+      prettier: 3.9.6
 
   linguist-languages@8.2.0: {}
 
   php-parser@3.2.5: {}
 
-  prettier-plugin-pkg@0.21.2(prettier@3.8.1):
+  prettier-plugin-pkg@0.21.2(prettier@3.9.6):
     dependencies:
-      prettier: 3.8.1
+      prettier: 3.9.6
 
-  prettier@3.8.1: {}
+  prettier@3.9.6: {}
