@@ -12,8 +12,8 @@ importers:
         specifier: ^0.24.0
         version: 0.24.0(prettier@3.8.1)
       '@wordpress/prettier-config':
-        specifier: ^4.8.0
-        version: 4.38.0(prettier@3.8.1)
+        specifier: ^5.0.0
+        version: 5.0.0(prettier@3.8.1)
       prettier:
         specifier: ^3.3.3
         version: 3.8.1
@@ -28,9 +28,9 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  '@wordpress/prettier-config@4.38.0':
-    resolution: {integrity: sha512-kWGpmmkIvvObtteeOBkZM3GiTOL8tBkccBJwIWV7kBIC71HrBERnvQZKga84QW5thdt+S0ccjBZk41saEGXavw==}
-    engines: {node: '>=18.12.0', npm: '>=8.19.2'}
+  '@wordpress/prettier-config@5.0.0':
+    resolution: {integrity: sha512-uQ3rtrqt8yvUHFN9Xcxuw7EfSw4ArMkwFxtz2RHZM2Sis9jzB7xk0FcK/iWE55q0WWSjmFGWoNVpOEQoSE7ocQ==}
+    engines: {node: '>=22.13.0'}
     peerDependencies:
       prettier: '>=3'
 
@@ -59,7 +59,7 @@ snapshots:
       php-parser: 3.2.5
       prettier: 3.8.1
 
-  '@wordpress/prettier-config@4.38.0(prettier@3.8.1)':
+  '@wordpress/prettier-config@5.0.0(prettier@3.8.1)':
     dependencies:
       prettier: 3.8.1
 
